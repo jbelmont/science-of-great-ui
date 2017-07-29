@@ -18,6 +18,7 @@ This repository is a review of Mark Miller's Course (The Science of Great UI)
 * [Wrapping Up Efficiency in Thought and Motion](#wrapping-up-efficiency-in-thought-and-motion)
 * [Resources](#resources)
 * [Personal Thoughts](#personal-thoughts)
+* [Purchase the Course](#purchase-the-course)
 
 ## Introduction
 
@@ -172,3 +173,7 @@ This repository is a review of Mark Miller's Course (The Science of Great UI)
 ## Personal Thoughts
 
 * Very impressive collection of strategies are presented, I am very intrigued with all the findings and think others will enjoy the course as well.
+
+## Purchase the Course
+
+Go to [Science of Great UI](https://app.deviq.com/courses/the-science-of-great-ui) to purchase and watch this great course.
