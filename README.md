@@ -21,64 +21,154 @@ This repository is a review of Mark Miller's Course (The Science of Great UI)
 
 ## Introduction
 
-* Fill me in
+* Mark Miller discusses high level concepts that the course will review
+* Miller also talks about a concept called Dark Design patterns very briefly
 
 ## Converting Light into Understanding
 
-* Fill me in
+* Interesting facts about the eye and brain are discussed
+* The fovea is responsible for sharp central vision (also called foveal vision)
+  * Necessary in humans for activities where visual detail is of primary importance, such as reading and driving
+* Rods in Human eye
+  * 120 Million
+* Cones in Human eye
+  * 7 million
+* Fovea and rapid eye movement help make a visual field
+
+> Most of what we think is true is a series of shortcuts designed to keep us alive
 
 ## Certainty, Ambiguity, Context
 
-* Fill me in
+* Ambiguity makes **certainty** impossible
+* Sufficient context is the cure for ambiguity
+* The **Blivet** Anti-pattern happens when an ambiguous presentation is adjoined by conflicting **context**
+* To fix the Blivet Anti-pattern, remove the conflicting **context**
+* **RTFM** (Read the Freaking Manual) design smell occurs when there is excessive/redundant instructions on how to use (or not use) the UI.
+* When the RTFM design smell is present, see if the UI can be **simplified** (to no longer need the instructions).
+* If you can't fix the RTFM design smell, edit the instructions to use **fewer** words.
 
 ## Grouping
 
-* Fill me in
+* Grouping is something the mind naturally wants to do
+  * It's part of our attempts to reduce complexity
+  * It's like a natural compression algorithm in our head
+* We can group in a variety of ways to make it easier for humans
+  * Containers
+  * Proximity
+  * Color (opacity, brightness, saturation)
+  * Symmetry
+  * Continuity (along a continuous line or curve)
+  * Shape
 
 ## Symbols
 
-* Fill me in
+* A simple image that represents something bigger, like an idea
+* Complex detailed symbols take more time to parse than simple ones
+* To make it easier to **recognize** symbols, they should be **distinct**
+* Our minds have a huge capacity to associate meaning to symbols
+  * Consider the alphabet
+    * In english, 52 letters (Upper and Lower characters)
+    * In Chinese roughly 30,000 to 80,0000 characters
 
 ## Cognitive Load
 
-* Fill me in
+* Sharp corners seem to inspire a slightly higher cognitive load in the brain.
+* We tend to see sharp corners as more salient **(important)** than obtuse corners.
+* Use sharp corners for important corners **(a point)**
+* Use rounded corners for everything else.
 
 ## Granularity
 
-* Fill me in
+* We can increase overall message capacity by **combining** channels
+  * This increases channel bit capacity, but it is not an additive operation.
+    * (Other limits on our ability to handle complexity can also be at play)
+
+* We may be able to reduce communication errors by:
+  * Adding **redundant channels**
+  * Adding **reference points**
+    * Parts of Speech:
+      * Nouns
+      * Pronouns
+      * Adjectives
+
+* Channel capacity limits will be a constraining force on other guidelines.
 
 ## Visual Search
 
-* Fill me in
+* Sampling Density inside the fovea is high.
+* As we move farther from the fovea:
+  * Sampling density diminishes
+  * We lose color perception
+* Peripheral vision detects motion and helps you balance and move through space.
+* Our brains can search the entire visual field using parallel processes.
+* Visual searches that heavily utilize our brain's cognitive powers:
+  * Can operate only on a restricted portion of the visual field.
+
+* When designing icons:
+  * Avoid thin lines and tiny details
+  * Thick lines and filled shapes are more easily seen in the periphery.
 
 ## Background and Foreground Part 1
 
-* Fill me in
+* Backgrounds:
+  * **Should be a solid color**
+
+* Emphasis should match **Information Relevance**
+  * Constrained by Channel Capacity Limits
+    * No more than 3 levels in the brightness channel
+
+* Background Color
+* Reference Points and Relativity
+* Minimum Distance for Readability
+* Color and Perceived Brightness
 
 ## Noise, Weak Signal, and Clarity
 
-* Fill me in
+* Hindering Clarity are 2 things:
+
+1. Visual Noise
+2. Weak Signal
 
 ## Recognition vs. Recall, Orienteering, and Paths
 
-* Fill me in
+* Long Paths:
+  * Are harder to remember (increased cognitive load, increased likelihood of mistakes)
+  * Take longer to perform
+  * More movement, more thought
+  * Can induce fatigue
+
+* Narrow paths:
+  * Are harder to perform (require more precision)
+  * Increase likelihood of mistakes
+
+* Strenuous/steep paths:
+  * Induce more fatigue
+
+* Erratic paths (require context shifts)
 
 ## Responsiveness & The Feedback Loop
 
-* Fill me in
+* Mark Miller discusses a tool that he built which you can find at github [HERE](https://github.com/MillerMark/FeedbackLoopExplorer)
 
 ## Discoverability
 
-* Fill me in
+* Discoverability should be fluid and in parallel (avoid modal instruction)
+* Discoverability should be close in proximity to the content of interest.
+* Discoverability content should be concise and clear.
+* Use images (especially when the text can become more concise)
+* Live preview is the best discoverability
+* When you invent new UI:
+  * **Set aside time** in the **schedule** to design and implement good discoverability.
 
 ## Wrapping Up Efficiency in Thought and Motion
 
-* Fill me in
+* Discuss how our brains work and interact with the world.
+* Some short clips with music are presented.
 
 ## Resources
 
-* Fill me in
+* A pdf is given at the end with more condensed notes on all the videos is given.
 
 ## Personal Thoughts
 
-* Fill me in
+* Very impressive collection of strategies are presented, I am very intrigued with all the findings and think others will enjoy the course as well.
